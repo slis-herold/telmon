@@ -3,24 +3,20 @@
     {
       "id": "A1B2C3D4",
       "berufsgruppe": "Apotheker",
-      "AMTS": "aktiv",
-      "AMBO": "aktiv",
       "NFD": "NA",
-      "eMP": "NA",
+      "eMP": "aktiv",
       "ePA": "NA",
       "KIM": "NA",
-      "eRezept": "NA",
+      "eRezept": "aktiv",
       "TPN": "NA",
       "VPN": "aktiv",
-      "Connector": "aktiv",
-      "historische_daten": "keine Probleme in den letzten 30 Tagen",
-      "itsm": "keine aktuellen Vorfälle"
+      "Konnektor": "aktiv",
+      "historische_daten": [],
+      "itsm": {}
     },
     {
       "id": "E5F6G7H8",
       "berufsgruppe": "Pflegedienst",
-      "AMTS": "NA",
-      "AMBO": "NA",
       "NFD": "aktiv",
       "eMP": "aktiv",
       "ePA": "NA",
@@ -28,15 +24,21 @@
       "eRezept": "NA",
       "TPN": "NA",
       "VPN": "instabil",
-      "Connector": "aktiv",
-      "historische_daten": "wiederkehrende Verbindungsprobleme",
-      "itsm": "Vorfall ID 789 aktiv"
+      "Konnektor": "aktiv",
+      "historische_daten": [
+        {
+          "datum": "2024-07-01",
+          "typ": "Verbindungsproblem",
+          "beschreibung": "Wiederkehrende Verbindungsprobleme"
+        }
+      ],
+      "itsm": {
+        "789": "aktiv"
+      }
     },
     {
       "id": "I9J0K1L2",
       "berufsgruppe": "Psychotherapeut",
-      "AMTS": "NA",
-      "AMBO": "NA",
       "NFD": "NA",
       "eMP": "NA",
       "ePA": "aktiv",
@@ -44,15 +46,19 @@
       "eRezept": "NA",
       "TPN": "NA",
       "VPN": "aktiv",
-      "Connector": "aktiv",
-      "historische_daten": "häufige Fehler in den letzten 7 Tagen",
-      "itsm": "keine aktuellen Vorfälle"
+      "Konnektor": "aktiv",
+      "historische_daten": [
+        {
+          "datum": "2024-06-25",
+          "typ": "Fehler",
+          "beschreibung": "Häufige Fehler in den letzten 7 Tagen"
+        }
+      ],
+      "itsm": {}
     },
     {
       "id": "M3N4O5P6",
       "berufsgruppe": "Physiotherapeut",
-      "AMTS": "NA",
-      "AMBO": "NA",
       "NFD": "NA",
       "eMP": "NA",
       "ePA": "NA",
@@ -60,31 +66,40 @@
       "eRezept": "aktiv",
       "TPN": "aktiv",
       "VPN": "aktiv",
-      "Connector": "aktiv",
-      "historische_daten": "keine Probleme in den letzten 30 Tagen",
-      "itsm": "keine aktuellen Vorfälle"
+      "Konnektor": "aktiv",
+      "historische_daten": [],
+      "itsm": {}
     },
     {
       "id": "Q7R8S9T0",
       "berufsgruppe": "Apotheker",
-      "AMTS": "aktiv",
-      "AMBO": "aktiv",
       "NFD": "NA",
-      "eMP": "NA",
+      "eMP": "instabil",
       "ePA": "NA",
       "KIM": "NA",
-      "eRezept": "NA",
+      "eRezept": "aktiv",
       "TPN": "NA",
       "VPN": "instabil",
-      "Connector": "aktiv",
-      "historische_daten": "wiederkehrende Verbindungsprobleme",
-      "itsm": "Vorfall ID 456 aktiv"
+      "Konnektor": "aktiv",
+      "historische_daten": [
+        {
+          "datum": "2024-06-30",
+          "typ": "Verbindungsproblem",
+          "beschreibung": "Wiederkehrende Verbindungsprobleme"
+        },
+        {
+          "datum": "2024-07-05",
+          "typ": "Fehler",
+          "beschreibung": "EGK nicht lesbar im Kartenterminal"
+        }
+      ],
+      "itsm": {
+        "456": "aktiv"
+      }
     },
     {
       "id": "U1V2W3X4",
       "berufsgruppe": "Pflegedienst",
-      "AMTS": "NA",
-      "AMBO": "NA",
       "NFD": "aktiv",
       "eMP": "ausgefallen",
       "ePA": "NA",
@@ -92,15 +107,24 @@
       "eRezept": "NA",
       "TPN": "NA",
       "VPN": "aktiv",
-      "Connector": "aktiv",
-      "historische_daten": "keine Probleme in den letzten 30 Tagen",
-      "itsm": "keine aktuellen Vorfälle"
+      "Konnektor": "aktiv",
+      "historische_daten": [
+        {
+          "datum": "2024-07-03",
+          "typ": "Fehler",
+          "beschreibung": "eMP instabil"
+        },
+        {
+          "datum": "2024-07-10",
+          "typ": "Ausfall",
+          "beschreibung": "VPN instabil"
+        }
+      ],
+      "itsm": {}
     },
     {
       "id": "Y5Z6A7B8",
       "berufsgruppe": "Psychotherapeut",
-      "AMTS": "NA",
-      "AMBO": "NA",
       "NFD": "NA",
       "eMP": "NA",
       "ePA": "aktiv",
@@ -108,15 +132,26 @@
       "eRezept": "NA",
       "TPN": "NA",
       "VPN": "aktiv",
-      "Connector": "aktiv",
-      "historische_daten": "häufige Fehler in den letzten 7 Tagen",
-      "itsm": "Vorfall ID 123 aktiv"
+      "Konnektor": "aktiv",
+      "historische_daten": [
+        {
+          "datum": "2024-07-02",
+          "typ": "Fehler",
+          "beschreibung": "Häufige Fehler in den letzten 7 Tagen"
+        },
+        {
+          "datum": "2024-07-12",
+          "typ": "Ausfall",
+          "beschreibung": "Konnektor ausgefallen"
+        }
+      ],
+      "itsm": {
+        "123": "aktiv"
+      }
     },
     {
       "id": "C9D0E1F2",
       "berufsgruppe": "Physiotherapeut",
-      "AMTS": "NA",
-      "AMBO": "NA",
       "NFD": "NA",
       "eMP": "NA",
       "ePA": "NA",
@@ -124,31 +159,40 @@
       "eRezept": "instabil",
       "TPN": "aktiv",
       "VPN": "aktiv",
-      "Connector": "instabil",
-      "historische_daten": "wiederkehrende Verbindungsprobleme",
-      "itsm": "keine aktuellen Vorfälle"
+      "Konnektor": "instabil",
+      "historische_daten": [
+        {
+          "datum": "2024-06-20",
+          "typ": "Verbindungsproblem",
+          "beschreibung": "Wiederkehrende Verbindungsprobleme"
+        },
+        {
+          "datum": "2024-07-05",
+          "typ": "Fehler",
+          "beschreibung": "eRezept instabil"
+        }
+      ],
+      "itsm": {}
     },
     {
       "id": "G3H4I5J6",
       "berufsgruppe": "Apotheker",
-      "AMTS": "aktiv",
-      "AMBO": "aktiv",
       "NFD": "NA",
-      "eMP": "NA",
+      "eMP": "aktiv",
       "ePA": "NA",
       "KIM": "NA",
-      "eRezept": "NA",
+      "eRezept": "aktiv",
       "TPN": "NA",
       "VPN": "aktiv",
-      "Connector": "aktiv",
-      "historische_daten": "keine Probleme in den letzten 30 Tagen",
-      "itsm": "Vorfall ID 987 aktiv"
+      "Konnektor": "aktiv",
+      "historische_daten": [],
+      "itsm": {
+        "987": "aktiv"
+      }
     },
     {
       "id": "K7L8M9N0",
       "berufsgruppe": "Pflegedienst",
-      "AMTS": "NA",
-      "AMBO": "NA",
       "NFD": "aktiv",
       "eMP": "aktiv",
       "ePA": "NA",
@@ -156,9 +200,22 @@
       "eRezept": "NA",
       "TPN": "NA",
       "VPN": "ausgefallen",
-      "Connector": "aktiv",
-      "historische_daten": "häufige Fehler in den letzten 7 Tagen",
-      "itsm": "Vorfall ID 654 aktiv"
+      "Konnektor": "aktiv",
+      "historische_daten": [
+        {
+          "datum": "2024-07-05",
+          "typ": "Fehler",
+          "beschreibung": "Häufige Fehler in den letzten 7 Tagen"
+        },
+        {
+          "datum": "2024-07-08",
+          "typ": "Ausfall",
+          "beschreibung": "VPN ausgefallen"
+        }
+      ],
+      "itsm": {
+        "654": "aktiv"
+      }
     }
   ]
 }
